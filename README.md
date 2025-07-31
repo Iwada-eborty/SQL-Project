@@ -1,9 +1,9 @@
 # AxiaStores Database Project
 
-# Project Overview
+## Project Overview
 This project demonstrates a complete SQL based solution for an Electronics & Accessories retail business, *AxiaStores*. It involves designing and implementing a relational database with three core tables, Customer, Product, and Orders. While performing various analytical queries to extract insights.
 
-# Table of Content
+### Table of Content
 - [Project Overview](#project-overview)
 - [Objectives](#objectives)
 - [Tools and Methodologies](#tools-and-methodologies)
@@ -12,7 +12,7 @@ This project demonstrates a complete SQL based solution for an Electronics & Acc
 - [Answers to Analytical Questions and Results](#answers-to-analytical-questions-and-results)
 - [References](#references)
 
-# Objectives
+### Objectives
 The primary goal of this project is to
 - Create a sample relational database
 - Creation of multiple tables within the database with appropriate data types and constraints:
@@ -23,7 +23,7 @@ The primary goal of this project is to
   - The use of Join funtion for multiple tables
   - Use of aggregate functions like average and sum
  
- ## Tools and Methodologies 
+ ### Tools and Methodologies 
 *Tool Used:* *SQL SERVER MANAGEMENT STUDIO 21* [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 1. Open your SSMS.
 2. Load and execute script like:
@@ -32,7 +32,7 @@ The primary goal of this project is to
    - Populate *CustomerTB, **ProductTB, and **OrdersTB* tables with the necessary data
    - Anwser analytical questions and run queries, save and document results for reporting and insights
 
-# Key Analytical Questions
+### Key Analytical Questions
 The queries in this project aim to answer the following key questions based on the AxiaStores dataset:
 1. Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”.
 2. List all customers’ full names in ascending alphabetical order (LastName, then FirstName).
@@ -40,7 +40,7 @@ The queries in this project aim to answer the following key questions based on t
 4. Show average sales per product category and sort in descending order.
 5. Which city generated the highest revenue for AxiaStores.
 
-   ## Samples of SQL Queries and Results
+   ### Samples of SQL Queries and Results
 Here are examples of key queries used in the project and their results:
 
 1. *CREATING DATABASE*
@@ -73,7 +73,7 @@ VALUES
 
 ![image alt](https://github.com/Icemma/SQL_Projects/blob/e5c277c01abe3c27f9d3542032e110c51c4a4cbc/Screenshot%202025-07-25%20155506.png)
 
-# Answers to Analytical Questions and Results
+### Answers to Analytical Questions and Results
 
 1. *Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”*
 <pre>
